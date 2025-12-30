@@ -1,0 +1,12 @@
+/* Garante que imagens e gráficos nunca fiquem maiores que o slide */
+.reveal section img {
+    max-height: 80vh !important; /* Limita a altura a 80% da tela */
+    max-width: 100% !important;  /* Limita a largura a 100% da tela */
+    object-fit: contain;         /* Garante que a imagem não distorça */
+    margin: auto;                /* Centraliza */
+}
+
+/* Ajuste fino para colunas (Texto + Gráfico) */
+.reveal .columns {
+    align-items: center; /* Centraliza verticalmente texto e gráfico */
+}
